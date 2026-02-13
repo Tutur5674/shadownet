@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SHADOWNET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SHADOWNET</h1>
+        <p>Réseau Anonyme Décentralisé</p>
+        <span class="status">● EN LIGNE</span>
+    </header>
 
+    <section class="post-creator">
+        <textarea id="postInput" placeholder="Entrer un message anonyme..."></textarea>
+        <button onclick="createPost()">Publier</button>
+    </section>
+
+    <section id="posts"></section>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
